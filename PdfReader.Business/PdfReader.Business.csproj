@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExCSS" Version="4.2.4" />
+    <PackageReference Include="IronPdf" Version="2023.10.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PdfReader.Business.Contracts\PdfReader.Business.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
